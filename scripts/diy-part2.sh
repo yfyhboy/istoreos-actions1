@@ -257,11 +257,11 @@ cp -rf ../../kiddin9/luci-app-unblockneteasemusic/* luci-app-unblockneteasemusic
 # svn export https://github.com/Siriling/5G-Modem-Support/trunk/luci-app-hypermodem
 mkdir quectel_QMI_WWAN
 mkdir quectel_cm_5G
-mkdir quectel_MHI
+# mkdir quectel_MHI
 mkdir luci-app-hypermodem
 cp -rf ../../Modem-Support/quectel_QMI_WWAN/* quectel_QMI_WWAN
 cp -rf ../../Modem-Support/quectel_cm_5G/* quectel_cm_5G
-cp -rf ../../Modem-Support/quectel_MHI/* quectel_MHI
+# cp -rf ../../Modem-Support/quectel_MHI/* quectel_MHI
 cp -rf ../../Modem-Support/luci-app-hypermodem/* luci-app-hypermodem
 
 # 5G模组短信插件
@@ -434,17 +434,17 @@ CONFIG_PACKAGE_luci-app-uugamebooster=y
 " >> .config
 
 #补充网卡
-echo "
-CONFIG_PACKAGE_kmod-mt7922-firmware=y
-CONFIG_PACKAGE_kmod-ath=y
-CONFIG_PACKAGE_kmod-ath10k=y
-CONFIG_PACKAGE_ath10k-board-qca9888=y
-CONFIG_PACKAGE_ath10k-board-qca988x=y
-CONFIG_PACKAGE_ath10k-board-qca9984=y
-CONFIG_PACKAGE_ath10k-firmware-qca9888=y
-CONFIG_PACKAGE_ath10k-firmware-qca988x=y
-CONFIG_PACKAGE_ath10k-firmware-qca9984=y
-" >> .config
+#echo "
+#CONFIG_PACKAGE_kmod-mt7922-firmware=y
+#CONFIG_PACKAGE_kmod-ath=y
+#CONFIG_PACKAGE_kmod-ath10k=y
+#CONFIG_PACKAGE_ath10k-board-qca9888=y
+#CONFIG_PACKAGE_ath10k-board-qca988x=y
+#CONFIG_PACKAGE_ath10k-board-qca9984=y
+#CONFIG_PACKAGE_ath10k-firmware-qca9888=y
+#CONFIG_PACKAGE_ath10k-firmware-qca988x=y
+#CONFIG_PACKAGE_ath10k-firmware-qca9984=y
+#" >> .config
 
 #5G相关
 echo "
