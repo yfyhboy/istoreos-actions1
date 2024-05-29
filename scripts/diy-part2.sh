@@ -465,16 +465,16 @@ CONFIG_PACKAGE_sms-tool=y
 CONFIG_PACKAGE_luci-app-modem=y
 
 # QMI拨号工具（移远，广和通）
-# CONFIG_PACKAGE_quectel-CM-5G=y
+CONFIG_PACKAGE_quectel-CM-5G=y
 # CONFIG_PACKAGE_fibocom-dial=y
 
 # QMI拨号软件
-# CONFIG_PACKAGE_kmod-qmi_wwan_f=y
-# CONFIG_PACKAGE_luci-app-hypermodem=y
+CONFIG_PACKAGE_kmod-qmi_wwan_f=y
+CONFIG_PACKAGE_luci-app-hypermodem=y
 
 # Gobinet拨号软件
-# CONFIG_PACKAGE_kmod-gobinet=y
-# CONFIG_PACKAGE_luci-app-gobinetmodem=y
+CONFIG_PACKAGE_kmod-gobinet=y
+CONFIG_PACKAGE_luci-app-gobinetmodem=y
 
 # 串口调试工具
 CONFIG_PACKAGE_minicom=y
