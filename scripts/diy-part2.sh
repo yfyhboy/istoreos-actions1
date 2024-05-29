@@ -189,6 +189,8 @@ elif [ "$1" = "rk35xx" ]; then
     $GITHUB_WORKSPACE/scripts/preset-clash-core.sh arm64
 elif [ "$1" = "x86" ]; then
     $GITHUB_WORKSPACE/scripts/preset-clash-core.sh amd64
+elif [ "$1" = "wndr3700v4" ]; then
+    $GITHUB_WORKSPACE/scripts/preset-clash-core.sh mips-softfloat
 fi
 
 # 去广告
